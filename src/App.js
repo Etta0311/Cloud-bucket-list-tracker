@@ -12,11 +12,11 @@ import {
   View,
   withAuthenticator,
 } from "@aws-amplify/ui-react";
-import { listNotes } from "./graphql/schema.json/queries";
+import { listNotes } from "./graphql/queries";
 import {
   createNote as createNoteMutation,
   deleteNote as deleteNoteMutation,
-} from "./graphql/schema.json/mutations";
+} from "./graphql/mutations";
 
 import {Amplify} from 'aws-amplify';
 import awsExports from './aws-exports'; // The path may vary
